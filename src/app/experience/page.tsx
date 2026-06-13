@@ -12,8 +12,7 @@ export default function ExperiencePage() {
       <div className="mb-12">
         <h1 className="mb-4 text-4xl font-bold">Experience</h1>
         <p className="max-w-2xl text-lg text-muted-foreground">
-          A timeline of my professional experiences, internships, and roles where I've applied my
-          skills in real-world scenarios.
+          Timeline of my experiences and roles in real-world scenarios.
         </p>
       </div>
 

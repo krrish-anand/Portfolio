@@ -8,47 +8,14 @@ const experiences = [
     company: "SmartBridge Technologies",
     type: "internship",
     location: "Remote",
-    startDate: "Jun 2023",
-    endDate: "Dec 2023",
+    startDate: "May 2025",
+    endDate: "Jul 2025",
     current: false,
     description:
-      "Developed and deployed machine learning models for business intelligence and analytics. Collaborated with senior data scientists on fraud detection and customer segmentation projects.",
+      "Developed and deployed machine learning models for business intelligence and analytics.",
     achievements: [
       "Built ML pipeline for fraud detection achieving 93% accuracy",
       "Analyzed 100K+ transactions using SQL and Python",
-      "Created interactive Tableau dashboards for stakeholders",
-    ],
-  },
-  {
-    title: "ML Research Intern",
-    company: "VIT Research Lab",
-    type: "research",
-    location: "Vellore, Tamil Nadu",
-    startDate: "Jan 2023",
-    endDate: "May 2023",
-    current: false,
-    description:
-      "Conducted research on NLP and deep learning applications. Implemented and evaluated transformer-based models for text classification tasks.",
-    achievements: [
-      "Published research paper on BERT fine-tuning",
-      "Implemented 3 different NLP architectures",
-      "Achieved state-of-the-art results on benchmark dataset",
-    ],
-  },
-  {
-    title: "Freelance ML Developer",
-    company: "Self-Employed",
-    type: "freelance",
-    location: "Remote",
-    startDate: "Jul 2022",
-    endDate: "Present",
-    current: true,
-    description:
-      "Building and deploying custom ML solutions for clients. Working on diverse projects ranging from computer vision to time series forecasting.",
-    achievements: [
-      "Completed 10+ successful client projects",
-      "Maintained 4.9/5 client rating",
-      "Specialized in end-to-end ML pipeline development",
     ],
   },
 ];
