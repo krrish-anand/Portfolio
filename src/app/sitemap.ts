@@ -1,8 +1,7 @@
-import { NextResponse } from "next/server";
 import type { MetadataRoute } from "next";
 
-export function GET(): Response {
-  const sitemap: MetadataRoute.Sitemap = [
+export default function sitemap(): MetadataRoute.Sitemap {
+  return [
     {
       url: "https://krrishanand.com",
       lastModified: new Date(),
@@ -58,10 +57,4 @@ export function GET(): Response {
       priority: 0.6,
     },
   ];
-
-  return NextResponse.json(sitemap, {
-    headers: {
-      "Content-Type": "application/xml; charset=utf-8",
-    },
-  });
 }
