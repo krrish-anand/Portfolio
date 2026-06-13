@@ -3,68 +3,81 @@
 import { motion } from "framer-motion";
 
 const skillsData = [
-  {
-    category: "Machine Learning",
-    skills: [
-      { name: "Scikit-learn", level: 95 },
-      { name: "XGBoost", level: 90 },
-      { name: "LightGBM", level: 85 },
-      { name: "Ensemble Methods", level: 90 },
-      { name: "Feature Engineering", level: 95 },
-      { name: "Model Validation", level: 90 },
-    ],
-  },
-  {
-    category: "Deep Learning",
-    skills: [
-      { name: "TensorFlow", level: 90 },
-      { name: "PyTorch", level: 85 },
-      { name: "Neural Networks", level: 90 },
-      { name: "CNNs", level: 85 },
-      { name: "RNNs/LSTMs", level: 85 },
-      { name: "Transformers", level: 80 },
-    ],
-  },
-  {
-    category: "Data Science",
-    skills: [
-      { name: "Pandas", level: 95 },
-      { name: "NumPy", level: 95 },
-      { name: "Matplotlib", level: 90 },
-      { name: "Seaborn", level: 90 },
-      { name: "Plotly", level: 85 },
-      { name: "EDA", level: 95 },
-    ],
-  },
+
   {
     category: "Programming",
     skills: [
-      { name: "Python", level: 95 },
+      { name: "Python", level: 85 },
       { name: "C++", level: 80 },
-      { name: "SQL", level: 90 },
-      { name: "JavaScript", level: 75 },
-      { name: "Java", level: 80 },
+      { name: "SQL", level: 83 },
     ],
   },
   {
-    category: "Data Engineering",
+    category: "Databases & Engineering",
     skills: [
-      { name: "PostgreSQL", level: 85 },
-      { name: "MySQL", level: 85 },
-      { name: "MongoDB", level: 80 },
-      { name: "Apache Spark", level: 75 },
-      { name: "ETL Pipelines", level: 80 },
+      { name: "MySQL", level: 82 },
+      { name: "MongoDB", level: 78 },
+      { name: "ETL Pipelines", level: 75 },
+    ],
+  },
+  {
+    category: "Machine Learning",
+    skills: [
+      { name: "Scikit-learn", level: 85 },
+      { name: "Ensemble Methods", level: 80 },
+      { name: "Feature Engineering", level: 85 },
+      { name: "Model Validation", level: 83 },
     ],
   },
   {
     category: "Cloud & Deployment",
     skills: [
-      { name: "AWS", level: 75 },
-      { name: "Docker", level: 80 },
-      { name: "Git", level: 90 },
-      { name: "GitHub Actions", level: 75 },
-      { name: "Streamlit", level: 90 },
-      { name: "Flask", level: 85 },
+      { name: "AWS", level: 72 },
+      { name: "REST API", level: 78 },
+      { name: "Git", level: 85 },
+      { name: "Streamlit", level: 85 }
+    ],
+  },
+  {
+    category: "Data Science",
+    skills: [
+      { name: "Pandas", level: 85 },
+      { name: "NumPy", level: 85 },
+      { name: "Matplotlib", level: 82 },
+      { name: "Seaborn", level: 80 },
+      { name: "Plotly", level: 78 },
+      { name: "EDA", level: 85 },
+    ],
+  },
+  {
+    category: "Deep Learning",
+    skills: [
+      { name: "TensorFlow", level: 82 },
+      { name: "PyTorch", level: 80 },
+      { name: "Neural Networks", level: 85 },
+      { name: "CNNs", level: 80 },
+      { name: "RNNs/LSTMs", level: 78 },
+      { name: "Transformers", level: 75 },
+    ],
+  },
+  {
+    category: "Generative AI",
+    skills: [
+      { name: "LLMs", level: 78 },
+      { name: "Prompt Engineering", level: 85 },
+      { name: "RAG", level: 75 },
+      { name: "LangChain", level: 75 },
+      { name: "OpenAI API", level: 78 },
+    ],
+  },
+  {
+    category: "Tools & Platforms",
+    skills: [
+      { name: "Jupyter Notebook", level: 85 },
+      { name: "Google Colab", level: 85 },
+      { name: "GitHub", level: 85 },
+      { name: "Postman", level: 78 },
+      { name: "Databricks", level: 75 },
     ],
   },
 ];
