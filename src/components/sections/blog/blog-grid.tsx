@@ -8,7 +8,6 @@ const blogPosts = [
     excerpt:
       "A comprehensive guide to neural networks, starting from the fundamentals of perceptrons to implementing deep neural networks with TensorFlow.",
     date: "Mar 15, 2024",
-    readingTime: "12 min",
     category: "Machine Learning",
     slug: "understanding-neural-networks",
   },
@@ -17,7 +16,6 @@ const blogPosts = [
     excerpt:
       "Techniques and tools for effective data preprocessing, cleaning, and feature engineering using Pandas and Scikit-learn.",
     date: "Mar 10, 2024",
-    readingTime: "8 min",
     category: "Data Science",
     slug: "data-preprocessing-best-practices",
   },
@@ -26,7 +24,6 @@ const blogPosts = [
     excerpt:
       "Strategies for deploying, monitoring, and maintaining machine learning models in production environments.",
     date: "Mar 5, 2024",
-    readingTime: "10 min",
     category: "Engineering",
     slug: "production-ready-ml-models",
   },
@@ -35,7 +32,6 @@ const blogPosts = [
     excerpt:
       "Deep dive into BERT architecture and how to fine-tune pre-trained models for specific NLP tasks.",
     date: "Feb 28, 2024",
-    readingTime: "15 min",
     category: "NLP",
     slug: "nlp-with-bert",
   },
@@ -57,7 +53,7 @@ export function BlogGrid() {
             <span className="rounded-full bg-secondary px-3 py-1 text-xs font-medium text-muted-foreground">
               {post.category}
             </span>
-            <span className="text-xs text-muted-foreground">{post.readingTime}</span>
+            <span className="text-xs text-muted-foreground"></span>
           </div>
 
           <h3 className="mb-2 text-xl font-semibold group-hover:text-accent transition-colors">
