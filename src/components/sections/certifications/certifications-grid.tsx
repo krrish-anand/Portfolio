@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ExternalLink, Check } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 const certifications = [
   {

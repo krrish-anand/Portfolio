@@ -52,7 +52,6 @@ export function Hero() {
             { name: "GitHub", url: "https://github.com/krrish-anand" },
             { name: "LinkedIn", url: "https://linkedin.com/in/krrishanand" },
             { name: "LeetCode", url: "https://leetcode.com" },
-            { name: "Kaggle", url: "https://kaggle.com" },
           ].map((link) => (
             <a
               key={link.name}

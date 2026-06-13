@@ -35,7 +35,6 @@ export const siteConfig = {
     },
   ],
   links: {
-    twitter: "https://twitter.com",
     github: "https://github.com/krrish-anand",
     linkedin: "https://linkedin.com/in/krrishanand",
     email: "krrishanand3832@gmail.com",

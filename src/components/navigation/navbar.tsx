@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 const navItems = [
   { name: "Home", href: "/" },
@@ -39,8 +38,6 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-4">
-          <ThemeToggle />
-
           {/* Mobile menu button */}
           <button
             className="md:hidden"

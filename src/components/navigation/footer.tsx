@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FileText, Mail, MessageCircle, Share2 } from "lucide-react";
+import { GitBranch, Briefcase, Mail } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -12,7 +12,7 @@ export function Footer() {
           <div>
             <h3 className="mb-4 font-semibold">About</h3>
             <p className="text-sm text-muted-foreground">
-              Data Scientist & ML Engineer focused on building intelligent systems.
+              Data Analyst & ML Engineer focused on building intelligent systems.
             </p>
           </div>
 
@@ -43,19 +43,14 @@ export function Footer() {
             <h3 className="mb-4 font-semibold">Resources</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <Link href="/resume" className="hover:text-foreground transition-colors">
                   Resume
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
-                  Documentation
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <Link href="/contact" className="hover:text-foreground transition-colors">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -69,30 +64,27 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
+                aria-label="GitHub"
               >
-                <FileText className="h-5 w-5" />
+                <GitBranch className="h-5 w-5" />
               </a>
               <a
                 href="https://linkedin.com/in/krrishanand"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
+                aria-label="LinkedIn"
               >
-                <MessageCircle className="h-5 w-5" />
+                <Briefcase className="h-5 w-5" />
               </a>
               <a
-                href="mailto:krrishanand3832@gmail.com"
-                className="text-muted-foreground hover:text-foreground transition-colors"
-              >
-                <Mail className="h-5 w-5" />
-              </a>
-              <a
-                href="https://twitter.com"
+                href="https://mail.google.com/mail/?view=cm&to=krrishanand3832@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
+                aria-label="Send Email"
               >
-                <Share2 className="h-5 w-5" />
+                <Mail className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -100,8 +92,7 @@ export function Footer() {
 
         <div className="mt-8 border-t border-border pt-8 text-center text-sm text-muted-foreground">
           <p>
-            © {currentYear} Krrish Anand. All rights reserved. Built with Next.js, TypeScript,
-            and Tailwind CSS.
+            © {currentYear} Krrish Anand
           </p>
         </div>
       </div>

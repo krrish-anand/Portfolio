@@ -6,7 +6,7 @@ const rateLimit = new Map<string, number[]>();
 export function middleware(request: NextRequest) {
   // Only rate limit API endpoints
   if (request.nextUrl.pathname.startsWith("/api")) {
-    const ip = request.ip || "unknown";
+    const ip = request.headers.get("x-forwarded-for") || "unknown";
     const now = Date.now();
     const windowMs = 60 * 1000; // 1 minute
     const maxRequests = 30; // 30 requests per minute
