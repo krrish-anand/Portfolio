@@ -3,9 +3,8 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { label: "Projects Completed", value: "15+" },
-  { label: "Academic CGPA", value: "9.3/10" },
-  { label: "Experience", value: "2+ Years" },
+  { label: "Projects Completed", value: "5+" },
+  { label: "Academic CGPA", value: "9.24/10" },
   { label: "Certifications", value: "5+" },
 ];
 

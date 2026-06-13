@@ -32,7 +32,7 @@ export function FeaturedProjects() {
       <div className="mb-12">
         <h2 className="mb-4 text-3xl font-bold">Featured Projects</h2>
         <p className="max-w-2xl text-muted-foreground">
-          A selection of my most impactful work showcasing expertise in ML, data science, and full-stack development.
+          A selection of my most impactful work showcasing expertise in Machine Learning, Data Science, and Visualizations.
         </p>
       </div>
 

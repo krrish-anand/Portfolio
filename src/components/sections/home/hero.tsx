@@ -15,7 +15,7 @@ export function Hero() {
       >
         <div className="mb-6 inline-block">
           <span className="rounded-full border border-border bg-secondary px-4 py-1.5 text-sm text-muted-foreground">
-            👋 Welcome to my portfolio
+            Welcome to my portfolio
           </span>
         </div>
 
@@ -25,8 +25,7 @@ export function Hero() {
 
         <p className="mb-6 text-xl text-muted-foreground">
           Data Scientist & Machine Learning Engineer passionate about building intelligent systems
-          that solve real-world problems. Currently pursuing B.Tech in Information Technology at VIT
-          University with a CGPA of 9.3/10.
+          that solve real-world problems.
         </p>
 
         <div className="flex flex-wrap gap-4">
