@@ -74,6 +74,7 @@ export function ContactInfo() {
             <Briefcase className="h-4 w-4 shrink-0" />
             LinkedIn
           </Link>
+
         </div>
       </div>
     </div>

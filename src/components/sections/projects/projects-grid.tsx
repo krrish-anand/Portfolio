@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { FileText, ExternalLink } from "lucide-react";
+import { FileText } from "lucide-react";
 
 const projects = [
   {
@@ -24,7 +24,7 @@ const projects = [
       "Deployed production-ready Streamlit app",
       "Comprehensive feature importance analysis",
     ],
-    githubLink: "https://github.com/krrish-anand/fraud-detection",
+    githubLink: "https://github.com/krrish-anand/Auto_Fraud_Detection",
     liveLink: "https://fraud-detection.streamlit.app",
     image: "/projects/fraud-detection.jpg",
   },
@@ -48,7 +48,7 @@ const projects = [
       "Built Flask API for predictions",
       "Real-time text classification system",
     ],
-    githubLink: "https://github.com/krrish-anand/speech-moderation",
+    githubLink: "https://github.com/krrish-anand/online-speech-moderation-system",
     liveLink: "https://speech-moderation.herokuapp.com",
     image: "/projects/speech-moderation.jpg",
   },
@@ -72,7 +72,7 @@ const projects = [
       "Identified key business patterns",
       "Optimized SQL queries for performance",
     ],
-    githubLink: "https://github.com/krrish-anand/superstore-analysis",
+    githubLink: "https://github.com/krrish-anand/Superstore",
     liveLink: "https://public.tableau.com/superstore-analysis",
     image: "/projects/superstore-analysis.jpg",
   },
@@ -90,9 +90,9 @@ export function ProjectsGrid() {
           viewport={{ once: true }}
           className="overflow-hidden rounded-lg border border-border"
         >
-          <div className="grid gap-6 p-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="p-6">
             {/* Content */}
-            <div className="space-y-4 lg:col-span-2">
+            <div className="space-y-4">
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <div className="mb-2 inline-block">
@@ -158,26 +158,6 @@ export function ProjectsGrid() {
                     <FileText className="h-4 w-4" /> GitHub
                   </a>
                 )}
-                {project.liveLink && (
-                  <a
-                    href={project.liveLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-lg border border-border px-4 py-2 text-sm hover:bg-secondary transition-colors"
-                  >
-                    <ExternalLink className="h-4 w-4" /> Live Demo
-                  </a>
-                )}
-              </div>
-            </div>
-
-            {/* Image placeholder */}
-            <div className="rounded-lg border border-border bg-secondary/30 p-6 lg:col-span-1">
-              <div className="flex h-full items-center justify-center">
-                <div className="text-center">
-                  <div className="mb-2 text-4xl">📊</div>
-                  <p className="text-xs text-muted-foreground">{project.category}</p>
-                </div>
               </div>
             </div>
           </div>

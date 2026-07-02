@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/sections/home/hero";
 import { FeaturedProjects } from "@/components/sections/home/featured-projects";
-import { StatsSection } from "@/components/sections/home/stats-section";
 import { RecentBlog } from "@/components/sections/home/recent-blog";
 import { SkillsSnapshot } from "@/components/sections/home/skills-snapshot";
 import { CTA } from "@/components/sections/home/cta";
@@ -16,7 +15,6 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <StatsSection />
       <FeaturedProjects />
       <SkillsSnapshot />
       <RecentBlog />

@@ -37,6 +37,7 @@ export const siteConfig = {
   links: {
     github: "https://github.com/krrish-anand",
     linkedin: "https://linkedin.com/in/krrishanand",
+    leetcode: "https://leetcode.com/u/Krrish71/",
     email: "krrishanand3832@gmail.com",
   },
 };
